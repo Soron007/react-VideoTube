@@ -74,25 +74,25 @@ const MyCarousel = () => (
 
         <Box w={'full'} h={'100vh'}>
 
-            <Img src={img1} />
+            <Img src={img1} h={"full"} w={"full"} objectFit={"cover"} />
             <Heading bgColor={'blackAlpha.400'} color={'white'} {...headingOptions}>The New World Order</Heading>
         </Box>
 
         <Box w={'full'} h={'100vh'}>
 
-            <Img src={img2} />
+            <Img src={img2} h={"full"} w={"full"} objectFit={"cover"} />
             <Heading bgColor={'whiteAlpha.800'} color={'black'} {...headingOptions}>A World Dominated By Games</Heading>
         </Box>
 
         <Box w={'full'} h={'100vh'}>
 
-            <Img src={img3} />
+            <Img src={img3} h={"full"} w={"full"} objectFit={"cover"} />
             <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>Console Gaming</Heading>
         </Box>
 
         <Box w={'full'} h={'100vh'}>
 
-            <Img src={img4} />
+            <Img src={img4} h={"full"} w={"full"} objectFit={"cover"} />
             <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>State Of The Art Games</Heading>
         </Box>
 
