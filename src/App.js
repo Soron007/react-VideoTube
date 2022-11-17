@@ -4,6 +4,8 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Upload from "./Components/Upload";
 import Videos from "./Components/Videos";
+import Login from "./Components/Login";
+import SignUp from "./Components/SignUp";
 
 
 function App() {
@@ -14,6 +16,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/videos' element={<Videos />} />
         <Route path='/upload' element={<Upload />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<SignUp />} />
+
 
 
 
